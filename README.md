@@ -2,7 +2,7 @@
 
 Some micro-controller devices have on-chip hardware to support reading of capacitive touch-pads. 
 These devices provide “automatic” measurement of capacitance between an I/O pin and earth (GND). 
-However, a change in capacitance on an (analog) input pin can be achieved quite easily without any special on-chip wizardry.
+However, a change in capacitance on an (analog) input pin can be detected quite easily without any special on-chip wizardry.
 
 The interval between calls to the touch-pad “service routine” may be anywhere in the range 100 microseconds up to 5 milliseconds,
 or more.  Execution time of the service routine itself is typically under 30 microseconds for each touch input. 
