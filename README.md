@@ -26,9 +26,9 @@ PS: The Test & Demo program (v1) doesn't include functions to detect touch-pad "
 i.e. transitions from 'not touched' to 'touched' (aka "touch-on event") or from 'touched' to 'not touched'
 (aka "touch-off event"). Reliable, glitch-free detection of such events can be tricky.
 An example application which includes functions to detect touch-pad "strike" and "release" events can be found in
-the folder "Application_example". This program uses a Pro-Micro MCU (ATmega32U4) from Sparkfun. The touch-sense
+the folder "Pro_Micro_touch_sense". This application uses a Pro-Micro MCU (ATmega32U4) from Sparkfun. The touch-sense
 service routine has been customized accordingly. Beware: the ADC in the AT_32U4 is not 100% compatible with the
-ATmega328P.  The AT_32U4 has an extra control/status register ADCSRB holding an extra MUX bit (MUX5). 
+ATmega328P. The AT_32U4 has an extra control/status register ADCSRB holding an extra MUX bit (MUX5). 
 A description of the example application can be found here:
 
 http://www.mjbauer.biz/MIDI-Rifficator-blog.html
