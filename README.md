@@ -22,7 +22,7 @@ The Touch-Sense algorithm is easily adapted to other micro-controllers.
 
 A full description is provided in the PDF document: "Touch sense for any MCU".
 
-PS: The Test & Demo program (v1) doesn't include functions to detect touch-pad "on/off transition events",
+PS: The "X-mini Test & Demo" program does not include functions to detect touch-pad "on/off transition events",
 i.e. transitions from 'not touched' to 'touched' (aka "touch-on event") or from 'touched' to 'not touched'
 (aka "touch-off event"). Reliable, glitch-free detection of such events can be tricky.
 An example application which includes functions to detect touch-pad "strike" and "release" events can be found in
