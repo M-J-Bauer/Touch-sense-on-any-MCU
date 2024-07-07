@@ -29,6 +29,6 @@ An example application which includes functions to detect touch-pad "strike" and
 the folder "Pro_Micro_touch_sense". This application uses a Pro-Micro MCU (ATmega32U4) from Sparkfun. The touch-sense
 service routine has been customized accordingly. Beware: the ADC in the AT_32U4 is not 100% compatible with the
 ATmega328P. The AT_32U4 has an extra control/status register ADCSRB holding an extra MUX bit (MUX5). 
-A description of the example application can be found here:
+A description of the example application can be found on the author's website:
 
 http://www.mjbauer.biz/MIDI-Rifficator-blog.html
