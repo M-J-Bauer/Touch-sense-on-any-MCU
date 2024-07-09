@@ -27,10 +27,6 @@ _Update, July 2024_...
 An example application including functions to detect touch-pad "strike" and "release" events can be found in
 the folder "Pro_Micro_touch_sense". Reliable, glitch-free detection of such events can be tricky. 
 The application runs on a 'Pro-Micro' MCU module (ATmega32U4) from Sparkfun. The touch-sense service
-routine has been customized accordingly. 
-
-Beware: The ADC in the ATmega32U4 is not 100% compatible with the ATmega328P.
-The '32U4 has an extra control/status register ADCSRB holding an extra MUX bit (MUX5). 
-A description of the example application can be found on the author's website:
+routine has been customized accordingly. A description of the application can be found on the author's website:
 
 http://www.mjbauer.biz/MIDI-Rifficator-blog.html
